@@ -1,0 +1,6 @@
+# sprawdzanie czy sa wartosci NaN
+data_check = NM_data
+nan_rows = data_check[data_check.isna().any(axis=1)]
+print(f"Liczba wierszy z NaN: {nan_rows.shape[0]}")
+print("Wiersze z NaN:")
+print(nan_rows)
