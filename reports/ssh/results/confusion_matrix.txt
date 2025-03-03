@@ -1,0 +1,390 @@
+Confusion Matrix for LR
+[[64  1]
+ [ 1 19]]
+Classification Report for LR
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for LR_NM
+[[64  1]
+ [ 1 19]]
+Classification Report for LR_NM
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for LR_IF
+[[64  1]
+ [ 1 19]]
+Classification Report for LR_IF
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for LR_MD
+[[64  1]
+ [ 1 19]]
+Classification Report for LR_MD
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for LR_LOF
+[[64  1]
+ [ 1 19]]
+Classification Report for LR_LOF
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for LR_CC
+[[63  2]
+ [ 1 19]]
+Classification Report for LR_CC
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98        65
+           1       0.90      0.95      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.94      0.96      0.95        85
+weighted avg       0.97      0.96      0.96        85
+
+Confusion Matrix for DT
+[[65  0]
+ [ 2 18]]
+Classification Report for DT
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98        65
+           1       1.00      0.90      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.99      0.95      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for DT_NM
+[[65  0]
+ [ 2 18]]
+Classification Report for DT_NM
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98        65
+           1       1.00      0.90      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.99      0.95      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for DT_IF
+[[65  0]
+ [ 2 18]]
+Classification Report for DT_IF
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98        65
+           1       1.00      0.90      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.99      0.95      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for DT_MD
+[[65  0]
+ [ 2 18]]
+Classification Report for DT_MD
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98        65
+           1       1.00      0.90      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.99      0.95      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for DT_LOF
+[[65  0]
+ [ 2 18]]
+Classification Report for DT_LOF
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98        65
+           1       1.00      0.90      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.99      0.95      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for DT_CC
+[[65  0]
+ [ 3 17]]
+Classification Report for DT_CC
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98        65
+           1       1.00      0.85      0.92        20
+
+    accuracy                           0.96        85
+   macro avg       0.98      0.93      0.95        85
+weighted avg       0.97      0.96      0.96        85
+
+Confusion Matrix for RF
+[[65  0]
+ [ 1 19]]
+Classification Report for RF
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for RF_NM
+[[65  0]
+ [ 1 19]]
+Classification Report for RF_NM
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for RF_IF
+[[65  0]
+ [ 1 19]]
+Classification Report for RF_IF
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for RF_MD
+[[65  0]
+ [ 2 18]]
+Classification Report for RF_MD
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98        65
+           1       1.00      0.90      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.99      0.95      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for RF_LOF
+[[65  0]
+ [ 1 19]]
+Classification Report for RF_LOF
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for RF_CC
+[[65  0]
+ [ 3 17]]
+Classification Report for RF_CC
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98        65
+           1       1.00      0.85      0.92        20
+
+    accuracy                           0.96        85
+   macro avg       0.98      0.93      0.95        85
+weighted avg       0.97      0.96      0.96        85
+
+Confusion Matrix for XGB
+[[65  0]
+ [ 1 19]]
+Classification Report for XGB
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGB_NM
+[[65  0]
+ [ 1 19]]
+Classification Report for XGB_NM
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGB_IF
+[[65  0]
+ [ 1 19]]
+Classification Report for XGB_IF
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGB_MD
+[[65  0]
+ [ 1 19]]
+Classification Report for XGB_MD
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGB_LOF
+[[65  0]
+ [ 1 19]]
+Classification Report for XGB_LOF
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGB_CC
+[[65  0]
+ [ 1 19]]
+Classification Report for XGB_CC
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGBRF
+[[64  1]
+ [ 1 19]]
+Classification Report for XGBRF
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for XGBRF_NM
+[[64  1]
+ [ 1 19]]
+Classification Report for XGBRF_NM
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for XGBRF_IF
+[[64  1]
+ [ 1 19]]
+Classification Report for XGBRF_IF
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for XGBRF_MD
+[[64  1]
+ [ 1 19]]
+Classification Report for XGBRF_MD
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for XGBRF_LOF
+[[64  1]
+ [ 1 19]]
+Classification Report for XGBRF_LOF
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for XGBRF_CC
+[[64  1]
+ [ 1 19]]
+Classification Report for XGBRF_CC
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
