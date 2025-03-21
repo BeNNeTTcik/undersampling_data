@@ -1,0 +1,9 @@
+Data: mix_NM_data
+Distribiution:
+source
+original            56.622517
+borderline smote    27.152318
+smote               13.245033
+gan                  2.980132
+Name: proportion, dtype: float64
+
