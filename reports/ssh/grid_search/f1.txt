@@ -1,90 +1,75 @@
 scoring: f1
-Best parameters for f1 & LR: {'max_iter': 500, 'random_state': 0}
-Best score for f1 & LR: 0.9835422350328891
+Best parameters for f1 & LR: {'max_iter': 1000, 'random_state': 0}
+Best score for f1 & LR: 0.978376887506243
 scoring: f1
-Best parameters for f1 & LR_NM: {'max_iter': 100, 'random_state': 0}
-Best score for f1 & LR_NM: 0.9468707798021496
+Best parameters for f1 & LR_mix: {'max_iter': 500, 'random_state': 0}
+Best score for f1 & LR_mix: 0.971271567832477
 scoring: f1
-Best parameters for f1 & LR_IF: {'max_iter': 1000, 'random_state': 0}
-Best score for f1 & LR_IF: 0.9673101491610216
+Best parameters for f1 & LR_smote: {'max_iter': 500, 'random_state': 0}
+Best score for f1 & LR_smote: 0.9754646666314871
 scoring: f1
-Best parameters for f1 & LR_MD: {'max_iter': 1000, 'random_state': 0}
-Best score for f1 & LR_MD: 0.9598645732659847
+Best parameters for f1 & LR_GAN: {'max_iter': 100, 'random_state': 0}
+Best score for f1 & LR_GAN: 0.9649107045116898
 scoring: f1
-Best parameters for f1 & LR_LOF: {'max_iter': 1000, 'random_state': 0}
-Best score for f1 & LR_LOF: 0.9667735925117495
+Best parameters for f1 & LR_borderline: {'max_iter': 1000, 'random_state': 0}
+Best score for f1 & LR_borderline: 0.978376887506243
 scoring: f1
-Best parameters for f1 & LR_CC: {'max_iter': 500, 'random_state': 0}
-Best score for f1 & LR_CC: 0.9771549444738235
+Best parameters for f1 & DT: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for f1 & DT: 0.9972220882565711
 scoring: f1
-Best parameters for f1 & DT: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 0}
-Best score for f1 & DT: 0.9986206896551725
+Best parameters for f1 & DT_mix: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for f1 & DT_mix: 0.9848072399442263
 scoring: f1
-Best parameters for f1 & DT_NM: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for f1 & DT_NM: 0.9967213114754099
+Best parameters for f1 & DT_smote: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for f1 & DT_smote: 0.9958234868579696
 scoring: f1
-Best parameters for f1 & DT_IF: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 0}
-Best score for f1 & DT_IF: 0.9967213114754099
+Best parameters for f1 & DT_GAN: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 10}
+Best score for f1 & DT_GAN: 0.9865372301009924
 scoring: f1
-Best parameters for f1 & DT_MD: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 20}
-Best score for f1 & DT_MD: 0.9967213114754099
+Best parameters for f1 & DT_borderline: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for f1 & DT_borderline: 0.9972220882565711
 scoring: f1
-Best parameters for f1 & DT_LOF: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 0}
-Best score for f1 & DT_LOF: 0.9969230769230769
+Best parameters for f1 & RF: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
+Best score for f1 & RF: 0.9958427779117436
 scoring: f1
-Best parameters for f1 & DT_CC: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for f1 & DT_CC: 1.0
+Best parameters for f1 & RF_mix: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 80, 'random_state': 20}
+Best score for f1 & RF_mix: 0.997241379310345
 scoring: f1
-Best parameters for f1 & RF: {'max_depth': 12, 'min_samples_leaf': 1, 'n_estimators': 40, 'random_state': 10}
-Best score for f1 & RF: 1.0
+Best parameters for f1 & RF_smote: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 20}
+Best score for f1 & RF_smote: 0.9958427779117436
 scoring: f1
-Best parameters for f1 & RF_NM: {'max_depth': 12, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 30}
-Best score for f1 & RF_NM: 0.9967213114754099
+Best parameters for f1 & RF_GAN: {'max_depth': 12, 'min_samples_leaf': 1, 'n_estimators': 40, 'random_state': 0}
+Best score for f1 & RF_GAN: 0.9890718535147869
 scoring: f1
-Best parameters for f1 & RF_IF: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 60, 'random_state': 40}
-Best score for f1 & RF_IF: 1.0
+Best parameters for f1 & RF_borderline: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
+Best score for f1 & RF_borderline: 0.9958427779117436
 scoring: f1
-Best parameters for f1 & RF_MD: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
-Best score for f1 & RF_MD: 0.9967213114754099
+Best parameters for f1 & XGB: {'max_depth': 4, 'subsample': 0.5}
+Best score for f1 & XGB: 0.9930842911877396
 scoring: f1
-Best parameters for f1 & RF_LOF: {'max_depth': 12, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 20}
-Best score for f1 & RF_LOF: 0.9970149253731343
+Best parameters for f1 & XGB_mix: {'max_depth': 4, 'subsample': 0.5}
+Best score for f1 & XGB_mix: 0.9847481660626045
 scoring: f1
-Best parameters for f1 & RF_CC: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
-Best score for f1 & RF_CC: 1.0
+Best parameters for f1 & XGB_smote: {'max_depth': 4, 'subsample': 0.9}
+Best score for f1 & XGB_smote: 0.9958427779117436
 scoring: f1
-Best parameters for f1 & XGB: {'max_depth': 4, 'subsample': 1}
-Best score for f1 & XGB: 0.997241379310345
+Best parameters for f1 & XGB_GAN: {'max_depth': 8, 'subsample': 1}
+Best score for f1 & XGB_GAN: 0.9695703739547759
 scoring: f1
-Best parameters for f1 & XGB_NM: {'max_depth': 4, 'subsample': 0.5}
-Best score for f1 & XGB_NM: 0.990269698572184
+Best parameters for f1 & XGB_borderline: {'max_depth': 4, 'subsample': 0.5}
+Best score for f1 & XGB_borderline: 0.9930842911877396
 scoring: f1
-Best parameters for f1 & XGB_IF: {'max_depth': 4, 'subsample': 1}
-Best score for f1 & XGB_IF: 0.9935467083008067
+Best parameters for f1 & XGBRF: {'max_depth': 4, 'subsample': 0.8}
+Best score for f1 & XGBRF: 0.9917241379310344
 scoring: f1
-Best parameters for f1 & XGB_MD: {'max_depth': 4, 'subsample': 1}
-Best score for f1 & XGB_MD: 0.9833879781420765
+Best parameters for f1 & XGBRF_mix: {'max_depth': 4, 'subsample': 0.8}
+Best score for f1 & XGBRF_mix: 0.9875667873825644
 scoring: f1
-Best parameters for f1 & XGB_LOF: {'max_depth': 4, 'subsample': 0.6}
-Best score for f1 & XGB_LOF: 0.9910407239819005
+Best parameters for f1 & XGBRF_smote: {'max_depth': 4, 'subsample': 0.7}
+Best score for f1 & XGBRF_smote: 0.9903256704980843
 scoring: f1
-Best parameters for f1 & XGB_CC: {'max_depth': 4, 'subsample': 0.5}
-Best score for f1 & XGB_CC: 0.9934426229508198
+Best parameters for f1 & XGBRF_GAN: {'max_depth': 4, 'subsample': 0.7}
+Best score for f1 & XGBRF_GAN: 0.9852650098151784
 scoring: f1
-Best parameters for f1 & XGBRF: {'max_depth': 4, 'subsample': 0.5}
-Best score for f1 & XGBRF: 0.9931412376003779
-scoring: f1
-Best parameters for f1 & XGBRF_NM: {'max_depth': 4, 'subsample': 0.5}
-Best score for f1 & XGBRF_NM: 0.9838180856689582
-scoring: f1
-Best parameters for f1 & XGBRF_IF: {'max_depth': 4, 'subsample': 0.5}
-Best score for f1 & XGBRF_IF: 0.9840196985721841
-scoring: f1
-Best parameters for f1 & XGBRF_MD: {'max_depth': 4, 'subsample': 0.5}
-Best score for f1 & XGBRF_MD: 0.9702696985721839
-scoring: f1
-Best parameters for f1 & XGBRF_LOF: {'max_depth': 4, 'subsample': 0.5}
-Best score for f1 & XGBRF_LOF: 0.9849801179212945
-scoring: f1
-Best parameters for f1 & XGBRF_CC: {'max_depth': 4, 'subsample': 0.5}
-Best score for f1 & XGBRF_CC: 0.9838180856689582
+Best parameters for f1 & XGBRF_borderline: {'max_depth': 4, 'subsample': 0.8}
+Best score for f1 & XGBRF_borderline: 0.9917241379310344

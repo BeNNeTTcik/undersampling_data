@@ -1,90 +1,75 @@
 scoring: precision
-Best parameters for precision & LR: {'max_iter': 500, 'random_state': 0}
-Best score for precision & LR: 0.9729329877823029
+Best parameters for precision & LR: {'max_iter': 1000, 'random_state': 0}
+Best score for precision & LR: 0.9577811235705973
 scoring: precision
-Best parameters for precision & LR_NM: {'max_iter': 500, 'random_state': 0}
-Best score for precision & LR_NM: 0.9450469966629589
+Best parameters for precision & LR_mix: {'max_iter': 500, 'random_state': 0}
+Best score for precision & LR_mix: 0.9626032916032916
 scoring: precision
-Best parameters for precision & LR_IF: {'max_iter': 1000, 'random_state': 0}
-Best score for precision & LR_IF: 0.9550134408602151
+Best parameters for precision & LR_smote: {'max_iter': 500, 'random_state': 0}
+Best score for precision & LR_smote: 0.962889802338973
 scoring: precision
-Best parameters for precision & LR_MD: {'max_iter': 1000, 'random_state': 0}
-Best score for precision & LR_MD: 0.9605573653265533
+Best parameters for precision & LR_GAN: {'max_iter': 100, 'random_state': 0}
+Best score for precision & LR_GAN: 0.9680160311530173
 scoring: precision
-Best parameters for precision & LR_LOF: {'max_iter': 1000, 'random_state': 0}
-Best score for precision & LR_LOF: 0.9473039215686274
+Best parameters for precision & LR_borderline: {'max_iter': 1000, 'random_state': 0}
+Best score for precision & LR_borderline: 0.9577811235705973
 scoring: precision
-Best parameters for precision & LR_CC: {'max_iter': 500, 'random_state': 0}
-Best score for precision & LR_CC: 0.967741935483871
+Best parameters for precision & DT: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for precision & DT: 0.9972602739726029
 scoring: precision
-Best parameters for precision & DT: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for precision & DT: 1.0
+Best parameters for precision & DT_mix: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for precision & DT_mix: 0.9861861427315798
 scoring: precision
-Best parameters for precision & DT_NM: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for precision & DT_NM: 1.0
+Best parameters for precision & DT_smote: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for precision & DT_smote: 0.9972602739726029
 scoring: precision
-Best parameters for precision & DT_IF: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for precision & DT_IF: 1.0
+Best parameters for precision & DT_GAN: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for precision & DT_GAN: 0.9844397611520901
 scoring: precision
-Best parameters for precision & DT_MD: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for precision & DT_MD: 1.0
-scoring: precision
-Best parameters for precision & DT_LOF: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for precision & DT_LOF: 1.0
-scoring: precision
-Best parameters for precision & DT_CC: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for precision & DT_CC: 1.0
+Best parameters for precision & DT_borderline: {'max_depth': 8, 'min_samples_leaf': 1, 'random_state': 10}
+Best score for precision & DT_borderline: 0.9972602739726029
 scoring: precision
 Best parameters for precision & RF: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
-Best score for precision & RF: 1.0
+Best score for precision & RF: 0.9945205479452055
 scoring: precision
-Best parameters for precision & RF_NM: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 40}
-Best score for precision & RF_NM: 1.0
+Best parameters for precision & RF_mix: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 0}
+Best score for precision & RF_mix: 0.9945205479452055
 scoring: precision
-Best parameters for precision & RF_IF: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 40}
-Best score for precision & RF_IF: 1.0
+Best parameters for precision & RF_smote: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 20}
+Best score for precision & RF_smote: 0.9945205479452055
 scoring: precision
-Best parameters for precision & RF_MD: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
-Best score for precision & RF_MD: 1.0
+Best parameters for precision & RF_GAN: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 20}
+Best score for precision & RF_GAN: 0.9868706635829924
 scoring: precision
-Best parameters for precision & RF_LOF: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 100, 'random_state': 30}
-Best score for precision & RF_LOF: 1.0
+Best parameters for precision & RF_borderline: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
+Best score for precision & RF_borderline: 0.9945205479452055
 scoring: precision
-Best parameters for precision & RF_CC: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 40}
-Best score for precision & RF_CC: 1.0
+Best parameters for precision & XGB: {'max_depth': 4, 'subsample': 0.5}
+Best score for precision & XGB: 0.9890030441400304
 scoring: precision
-Best parameters for precision & XGB: {'max_depth': 4, 'subsample': 1}
-Best score for precision & XGB: 0.9945205479452055
+Best parameters for precision & XGB_mix: {'max_depth': 4, 'subsample': 0.5}
+Best score for precision & XGB_mix: 0.9837427701674276
 scoring: precision
-Best parameters for precision & XGB_NM: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGB_NM: 0.9810483870967742
+Best parameters for precision & XGB_smote: {'max_depth': 4, 'subsample': 0.9}
+Best score for precision & XGB_smote: 0.9945205479452055
 scoring: precision
-Best parameters for precision & XGB_IF: {'max_depth': 4, 'subsample': 1}
-Best score for precision & XGB_IF: 0.9872983870967742
+Best parameters for precision & XGB_GAN: {'max_depth': 4, 'subsample': 0.9}
+Best score for precision & XGB_GAN: 0.9839942321557317
 scoring: precision
-Best parameters for precision & XGB_MD: {'max_depth': 4, 'subsample': 1}
-Best score for precision & XGB_MD: 0.9868817204301076
+Best parameters for precision & XGB_borderline: {'max_depth': 4, 'subsample': 0.5}
+Best score for precision & XGB_borderline: 0.9890030441400304
 scoring: precision
-Best parameters for precision & XGB_LOF: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGB_LOF: 0.9825108225108226
+Best parameters for precision & XGBRF: {'max_depth': 4, 'subsample': 0.8}
+Best score for precision & XGBRF: 0.9863013698630138
 scoring: precision
-Best parameters for precision & XGB_CC: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGB_CC: 0.9870967741935484
+Best parameters for precision & XGBRF_mix: {'max_depth': 4, 'subsample': 0.6}
+Best score for precision & XGBRF_mix: 0.9863754165124028
 scoring: precision
-Best parameters for precision & XGBRF: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGBRF: 0.9864494631617919
+Best parameters for precision & XGBRF_smote: {'max_depth': 4, 'subsample': 0.5}
+Best score for precision & XGBRF_smote: 0.9890030441400304
 scoring: precision
-Best parameters for precision & XGBRF_NM: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGBRF_NM: 0.9685483870967742
+Best parameters for precision & XGBRF_GAN: {'max_depth': 8, 'subsample': 0.6}
+Best score for precision & XGBRF_GAN: 0.9763962065331928
 scoring: precision
-Best parameters for precision & XGBRF_IF: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGBRF_IF: 0.9689271749755621
-scoring: precision
-Best parameters for precision & XGBRF_MD: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGBRF_MD: 0.9677150537634409
-scoring: precision
-Best parameters for precision & XGBRF_LOF: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGBRF_LOF: 0.9707461166284694
-scoring: precision
-Best parameters for precision & XGBRF_CC: {'max_depth': 4, 'subsample': 0.5}
-Best score for precision & XGBRF_CC: 0.9685483870967742
+Best parameters for precision & XGBRF_borderline: {'max_depth': 4, 'subsample': 0.8}
+Best score for precision & XGBRF_borderline: 0.9863013698630138

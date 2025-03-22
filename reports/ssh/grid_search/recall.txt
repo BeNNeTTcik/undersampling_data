@@ -1,90 +1,75 @@
 scoring: recall
 Best parameters for recall & LR: {'max_iter': 500, 'random_state': 0}
-Best score for recall & LR: 0.9944444444444445
+Best score for recall & LR: 1.0
 scoring: recall
-Best parameters for recall & LR_NM: {'max_iter': 100, 'random_state': 0}
-Best score for recall & LR_NM: 0.9533333333333334
+Best parameters for recall & LR_mix: {'max_iter': 100, 'random_state': 0}
+Best score for recall & LR_mix: 0.9806316590563167
 scoring: recall
-Best parameters for recall & LR_IF: {'max_iter': 500, 'random_state': 0}
-Best score for recall & LR_IF: 0.9802150537634409
+Best parameters for recall & LR_smote: {'max_iter': 500, 'random_state': 0}
+Best score for recall & LR_smote: 0.9889269406392694
 scoring: recall
-Best parameters for recall & LR_MD: {'max_iter': 100, 'random_state': 0}
-Best score for recall & LR_MD: 0.9673118279569891
+Best parameters for recall & LR_GAN: {'max_iter': 100, 'random_state': 0}
+Best score for recall & LR_GAN: 0.9639269406392694
 scoring: recall
-Best parameters for recall & LR_LOF: {'max_iter': 1000, 'random_state': 0}
-Best score for recall & LR_LOF: 0.9875
+Best parameters for recall & LR_borderline: {'max_iter': 500, 'random_state': 0}
+Best score for recall & LR_borderline: 1.0
 scoring: recall
-Best parameters for recall & LR_CC: {'max_iter': 500, 'random_state': 0}
-Best score for recall & LR_CC: 0.9868817204301076
+Best parameters for recall & DT: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
+Best score for recall & DT: 0.9972222222222221
 scoring: recall
-Best parameters for recall & DT: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 0}
-Best score for recall & DT: 1.0
+Best parameters for recall & DT_mix: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
+Best score for recall & DT_mix: 0.9972222222222221
 scoring: recall
-Best parameters for recall & DT_NM: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for recall & DT_NM: 0.9935483870967742
+Best parameters for recall & DT_smote: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
+Best score for recall & DT_smote: 0.9944444444444445
 scoring: recall
-Best parameters for recall & DT_IF: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 0}
-Best score for recall & DT_IF: 1.0
+Best parameters for recall & DT_GAN: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 0}
+Best score for recall & DT_GAN: 1.0
 scoring: recall
-Best parameters for recall & DT_MD: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 20}
-Best score for recall & DT_MD: 1.0
-scoring: recall
-Best parameters for recall & DT_LOF: {'max_depth': 4, 'min_samples_leaf': 2, 'random_state': 0}
-Best score for recall & DT_LOF: 1.0
-scoring: recall
-Best parameters for recall & DT_CC: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
-Best score for recall & DT_CC: 1.0
+Best parameters for recall & DT_borderline: {'max_depth': 4, 'min_samples_leaf': 1, 'random_state': 0}
+Best score for recall & DT_borderline: 0.9972222222222221
 scoring: recall
 Best parameters for recall & RF: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 0}
-Best score for recall & RF: 1.0
+Best score for recall & RF: 0.9972222222222221
 scoring: recall
-Best parameters for recall & RF_NM: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 0}
-Best score for recall & RF_NM: 1.0
+Best parameters for recall & RF_mix: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
+Best score for recall & RF_mix: 1.0
 scoring: recall
-Best parameters for recall & RF_IF: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 0}
-Best score for recall & RF_IF: 1.0
+Best parameters for recall & RF_smote: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 0}
+Best score for recall & RF_smote: 0.9972222222222221
 scoring: recall
-Best parameters for recall & RF_MD: {'max_depth': 8, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
-Best score for recall & RF_MD: 0.9935483870967742
+Best parameters for recall & RF_GAN: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 10}
+Best score for recall & RF_GAN: 1.0
 scoring: recall
-Best parameters for recall & RF_LOF: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 0}
-Best score for recall & RF_LOF: 1.0
-scoring: recall
-Best parameters for recall & RF_CC: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 0}
-Best score for recall & RF_CC: 1.0
+Best parameters for recall & RF_borderline: {'max_depth': 4, 'min_samples_leaf': 1, 'n_estimators': 20, 'random_state': 0}
+Best score for recall & RF_borderline: 0.9972222222222221
 scoring: recall
 Best parameters for recall & XGB: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGB: 1.0
+Best score for recall & XGB: 0.9972222222222221
 scoring: recall
-Best parameters for recall & XGB_NM: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGB_NM: 1.0
+Best parameters for recall & XGB_mix: {'max_depth': 4, 'subsample': 0.7}
+Best score for recall & XGB_mix: 0.9890030441400304
 scoring: recall
-Best parameters for recall & XGB_IF: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGB_IF: 1.0
+Best parameters for recall & XGB_smote: {'max_depth': 4, 'subsample': 0.5}
+Best score for recall & XGB_smote: 0.9972222222222221
 scoring: recall
-Best parameters for recall & XGB_MD: {'max_depth': 4, 'subsample': 1}
-Best score for recall & XGB_MD: 0.9804301075268818
+Best parameters for recall & XGB_GAN: {'max_depth': 4, 'subsample': 0.7}
+Best score for recall & XGB_GAN: 0.9611491628614915
 scoring: recall
-Best parameters for recall & XGB_LOF: {'max_depth': 4, 'subsample': 0.6}
-Best score for recall & XGB_LOF: 1.0
+Best parameters for recall & XGB_borderline: {'max_depth': 4, 'subsample': 0.5}
+Best score for recall & XGB_borderline: 0.9972222222222221
 scoring: recall
-Best parameters for recall & XGB_CC: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGB_CC: 1.0
+Best parameters for recall & XGBRF: {'max_depth': 4, 'subsample': 0.8}
+Best score for recall & XGBRF: 0.9972222222222221
 scoring: recall
-Best parameters for recall & XGBRF: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGBRF: 1.0
+Best parameters for recall & XGBRF_mix: {'max_depth': 4, 'subsample': 0.8}
+Best score for recall & XGBRF_mix: 0.9917808219178081
 scoring: recall
-Best parameters for recall & XGBRF_NM: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGBRF_NM: 1.0
+Best parameters for recall & XGBRF_smote: {'max_depth': 4, 'subsample': 0.7}
+Best score for recall & XGBRF_smote: 0.9944444444444445
 scoring: recall
-Best parameters for recall & XGBRF_IF: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGBRF_IF: 1.0
+Best parameters for recall & XGBRF_GAN: {'max_depth': 4, 'subsample': 0.6}
+Best score for recall & XGBRF_GAN: 1.0
 scoring: recall
-Best parameters for recall & XGBRF_MD: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGBRF_MD: 0.9737634408602152
-scoring: recall
-Best parameters for recall & XGBRF_LOF: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGBRF_LOF: 1.0
-scoring: recall
-Best parameters for recall & XGBRF_CC: {'max_depth': 4, 'subsample': 0.5}
-Best score for recall & XGBRF_CC: 1.0
+Best parameters for recall & XGBRF_borderline: {'max_depth': 4, 'subsample': 0.8}
+Best score for recall & XGBRF_borderline: 0.9972222222222221
