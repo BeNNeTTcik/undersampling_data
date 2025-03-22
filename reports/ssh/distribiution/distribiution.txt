@@ -1,10 +1,10 @@
 Data: mix_NM_data
 Distribiution:
 source
-original            56.622517
-borderline smote    27.152318
-smote               13.245033
-gan                  2.980132
+original            54.635762
+borderline smote    26.158940
+smote               16.887417
+gan                  2.317881
 Name: mix_NM_data, dtype: float64
 
 Data: mix_KM_data
@@ -16,18 +16,18 @@ Name: mix_KM_data, dtype: float64
 Data: mix_CC_data
 Distribiution:
 source
-original            51.324503
-centroid            25.165563
-gan                 17.880795
-smote                3.311258
-borderline smote     2.317881
+original            50.662252
+gan                 25.165563
+centroid            19.205298
+borderline smote     2.980132
+smote                1.986755
 Name: mix_CC_data, dtype: float64
 
 Data: borderline_NM_data
 Distribiution:
 source
-original            52.649007
-borderline smote    47.350993
+original            52.317881
+borderline smote    47.682119
 Name: borderline_NM_data, dtype: float64
 
 Data: borderline_KM_data
@@ -39,16 +39,16 @@ Name: borderline_KM_data, dtype: float64
 Data: borderline_CC_data
 Distribiution:
 source
-original            55.629139
-centroid            26.490066
-borderline smote    17.880795
+original            57.947020
+centroid            24.834437
+borderline smote    17.218543
 Name: borderline_CC_data, dtype: float64
 
 Data: smote_NM_data
 Distribiution:
 source
-original    56.622517
-smote       43.377483
+original    54.635762
+smote       45.364238
 Name: smote_NM_data, dtype: float64
 
 Data: smote_KM_data
@@ -60,16 +60,16 @@ Name: smote_KM_data, dtype: float64
 Data: smote_CC_data
 Distribiution:
 source
-original    51.655629
-centroid    36.092715
-smote       12.251656
+original    51.986755
+centroid    35.099338
+smote       12.913907
 Name: smote_CC_data, dtype: float64
 
 Data: GAN_NM_data
 Distribiution:
 source
-original    59.602649
-gan         40.397351
+original    58.940397
+gan         41.059603
 Name: GAN_NM_data, dtype: float64
 
 Data: GAN_KM_data
@@ -81,8 +81,8 @@ Name: GAN_KM_data, dtype: float64
 Data: GAN_CC_data
 Distribiution:
 source
-original    51.655629
-centroid    30.463576
-gan         17.880795
+original    50.662252
+centroid    37.748344
+gan         11.589404
 Name: GAN_CC_data, dtype: float64
 
