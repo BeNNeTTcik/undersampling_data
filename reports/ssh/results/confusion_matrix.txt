@@ -1,0 +1,780 @@
+Confusion Matrix for LR_mix_NM
+[[60  5]
+ [ 1 19]]
+Classification Report for LR_mix_NM
+              precision    recall  f1-score   support
+
+           0       0.98      0.92      0.95        65
+           1       0.79      0.95      0.86        20
+
+    accuracy                           0.93        85
+   macro avg       0.89      0.94      0.91        85
+weighted avg       0.94      0.93      0.93        85
+
+Confusion Matrix for LR_smote_NM
+[[60  5]
+ [ 1 19]]
+Classification Report for LR_smote_NM
+              precision    recall  f1-score   support
+
+           0       0.98      0.92      0.95        65
+           1       0.79      0.95      0.86        20
+
+    accuracy                           0.93        85
+   macro avg       0.89      0.94      0.91        85
+weighted avg       0.94      0.93      0.93        85
+
+Confusion Matrix for LR_GAN_NM
+[[63  2]
+ [ 1 19]]
+Classification Report for LR_GAN_NM
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98        65
+           1       0.90      0.95      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.94      0.96      0.95        85
+weighted avg       0.97      0.96      0.96        85
+
+Confusion Matrix for LR_borderline_NM
+[[61  4]
+ [ 3 17]]
+Classification Report for LR_borderline_NM
+              precision    recall  f1-score   support
+
+           0       0.95      0.94      0.95        65
+           1       0.81      0.85      0.83        20
+
+    accuracy                           0.92        85
+   macro avg       0.88      0.89      0.89        85
+weighted avg       0.92      0.92      0.92        85
+
+Confusion Matrix for LR_mix_KM
+[[ 6 59]
+ [20  0]]
+Classification Report for LR_mix_KM
+              precision    recall  f1-score   support
+
+           0       0.23      0.09      0.13        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.07        85
+   macro avg       0.12      0.05      0.07        85
+weighted avg       0.18      0.07      0.10        85
+
+Confusion Matrix for LR_smote_KM
+[[ 5 60]
+ [20  0]]
+Classification Report for LR_smote_KM
+              precision    recall  f1-score   support
+
+           0       0.20      0.08      0.11        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.06        85
+   macro avg       0.10      0.04      0.06        85
+weighted avg       0.15      0.06      0.08        85
+
+Confusion Matrix for LR_GAN_KM
+[[ 3 62]
+ [15  5]]
+Classification Report for LR_GAN_KM
+              precision    recall  f1-score   support
+
+           0       0.17      0.05      0.07        65
+           1       0.07      0.25      0.11        20
+
+    accuracy                           0.09        85
+   macro avg       0.12      0.15      0.09        85
+weighted avg       0.15      0.09      0.08        85
+
+Confusion Matrix for LR_borderline_KM
+[[ 6 59]
+ [20  0]]
+Classification Report for LR_borderline_KM
+              precision    recall  f1-score   support
+
+           0       0.23      0.09      0.13        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.07        85
+   macro avg       0.12      0.05      0.07        85
+weighted avg       0.18      0.07      0.10        85
+
+Confusion Matrix for LR_mix_CC
+[[59  6]
+ [ 1 19]]
+Classification Report for LR_mix_CC
+              precision    recall  f1-score   support
+
+           0       0.98      0.91      0.94        65
+           1       0.76      0.95      0.84        20
+
+    accuracy                           0.92        85
+   macro avg       0.87      0.93      0.89        85
+weighted avg       0.93      0.92      0.92        85
+
+Confusion Matrix for LR_smote_CC
+[[60  5]
+ [ 0 20]]
+Classification Report for LR_smote_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        65
+           1       0.80      1.00      0.89        20
+
+    accuracy                           0.94        85
+   macro avg       0.90      0.96      0.92        85
+weighted avg       0.95      0.94      0.94        85
+
+Confusion Matrix for LR_GAN_CC
+[[63  2]
+ [ 5 15]]
+Classification Report for LR_GAN_CC
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95        65
+           1       0.88      0.75      0.81        20
+
+    accuracy                           0.92        85
+   macro avg       0.90      0.86      0.88        85
+weighted avg       0.92      0.92      0.92        85
+
+Confusion Matrix for LR_borderline_CC
+[[58  7]
+ [ 0 20]]
+Classification Report for LR_borderline_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.89      0.94        65
+           1       0.74      1.00      0.85        20
+
+    accuracy                           0.92        85
+   macro avg       0.87      0.95      0.90        85
+weighted avg       0.94      0.92      0.92        85
+
+Confusion Matrix for DT_mix_NM
+[[65  0]
+ [ 1 19]]
+Classification Report for DT_mix_NM
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for DT_smote_NM
+[[65  0]
+ [ 1 19]]
+Classification Report for DT_smote_NM
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for DT_GAN_NM
+[[59  6]
+ [ 0 20]]
+Classification Report for DT_GAN_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.91      0.95        65
+           1       0.77      1.00      0.87        20
+
+    accuracy                           0.93        85
+   macro avg       0.88      0.95      0.91        85
+weighted avg       0.95      0.93      0.93        85
+
+Confusion Matrix for DT_borderline_NM
+[[65  0]
+ [ 1 19]]
+Classification Report for DT_borderline_NM
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for DT_mix_KM
+[[ 1 64]
+ [19  1]]
+Classification Report for DT_mix_KM
+              precision    recall  f1-score   support
+
+           0       0.05      0.02      0.02        65
+           1       0.02      0.05      0.02        20
+
+    accuracy                           0.02        85
+   macro avg       0.03      0.03      0.02        85
+weighted avg       0.04      0.02      0.02        85
+
+Confusion Matrix for DT_smote_KM
+[[ 1 64]
+ [19  1]]
+Classification Report for DT_smote_KM
+              precision    recall  f1-score   support
+
+           0       0.05      0.02      0.02        65
+           1       0.02      0.05      0.02        20
+
+    accuracy                           0.02        85
+   macro avg       0.03      0.03      0.02        85
+weighted avg       0.04      0.02      0.02        85
+
+Confusion Matrix for DT_GAN_KM
+[[ 1 64]
+ [19  1]]
+Classification Report for DT_GAN_KM
+              precision    recall  f1-score   support
+
+           0       0.05      0.02      0.02        65
+           1       0.02      0.05      0.02        20
+
+    accuracy                           0.02        85
+   macro avg       0.03      0.03      0.02        85
+weighted avg       0.04      0.02      0.02        85
+
+Confusion Matrix for DT_borderline_KM
+[[ 3 62]
+ [19  1]]
+Classification Report for DT_borderline_KM
+              precision    recall  f1-score   support
+
+           0       0.14      0.05      0.07        65
+           1       0.02      0.05      0.02        20
+
+    accuracy                           0.05        85
+   macro avg       0.08      0.05      0.05        85
+weighted avg       0.11      0.05      0.06        85
+
+Confusion Matrix for DT_mix_CC
+[[64  1]
+ [ 1 19]]
+Classification Report for DT_mix_CC
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for DT_smote_CC
+[[64  1]
+ [ 1 19]]
+Classification Report for DT_smote_CC
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98        65
+           1       0.95      0.95      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.97      0.97      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for DT_GAN_CC
+[[64  1]
+ [13  7]]
+Classification Report for DT_GAN_CC
+              precision    recall  f1-score   support
+
+           0       0.83      0.98      0.90        65
+           1       0.88      0.35      0.50        20
+
+    accuracy                           0.84        85
+   macro avg       0.85      0.67      0.70        85
+weighted avg       0.84      0.84      0.81        85
+
+Confusion Matrix for DT_borderline_CC
+[[65  0]
+ [ 1 19]]
+Classification Report for DT_borderline_CC
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        65
+           1       1.00      0.95      0.97        20
+
+    accuracy                           0.99        85
+   macro avg       0.99      0.97      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for RF_mix_NM
+[[64  1]
+ [ 0 20]]
+Classification Report for RF_mix_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        65
+           1       0.95      1.00      0.98        20
+
+    accuracy                           0.99        85
+   macro avg       0.98      0.99      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for RF_smote_NM
+[[63  2]
+ [ 0 20]]
+Classification Report for RF_smote_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98        65
+           1       0.91      1.00      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.95      0.98      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for RF_GAN_NM
+[[62  3]
+ [ 0 20]]
+Classification Report for RF_GAN_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98        65
+           1       0.87      1.00      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.93      0.98      0.95        85
+weighted avg       0.97      0.96      0.97        85
+
+Confusion Matrix for RF_borderline_NM
+[[63  2]
+ [ 1 19]]
+Classification Report for RF_borderline_NM
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98        65
+           1       0.90      0.95      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.94      0.96      0.95        85
+weighted avg       0.97      0.96      0.96        85
+
+Confusion Matrix for RF_mix_KM
+[[ 1 64]
+ [20  0]]
+Classification Report for RF_mix_KM
+              precision    recall  f1-score   support
+
+           0       0.05      0.02      0.02        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.01        85
+   macro avg       0.02      0.01      0.01        85
+weighted avg       0.04      0.01      0.02        85
+
+Confusion Matrix for RF_smote_KM
+[[ 1 64]
+ [20  0]]
+Classification Report for RF_smote_KM
+              precision    recall  f1-score   support
+
+           0       0.05      0.02      0.02        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.01        85
+   macro avg       0.02      0.01      0.01        85
+weighted avg       0.04      0.01      0.02        85
+
+Confusion Matrix for RF_GAN_KM
+[[ 0 65]
+ [11  9]]
+Classification Report for RF_GAN_KM
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        65
+           1       0.12      0.45      0.19        20
+
+    accuracy                           0.11        85
+   macro avg       0.06      0.23      0.10        85
+weighted avg       0.03      0.11      0.05        85
+
+Confusion Matrix for RF_borderline_KM
+[[ 3 62]
+ [20  0]]
+Classification Report for RF_borderline_KM
+              precision    recall  f1-score   support
+
+           0       0.13      0.05      0.07        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.04        85
+   macro avg       0.07      0.02      0.03        85
+weighted avg       0.10      0.04      0.05        85
+
+Confusion Matrix for RF_mix_CC
+[[65  0]
+ [ 2 18]]
+Classification Report for RF_mix_CC
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98        65
+           1       1.00      0.90      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.99      0.95      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for RF_smote_CC
+[[64  1]
+ [ 0 20]]
+Classification Report for RF_smote_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        65
+           1       0.95      1.00      0.98        20
+
+    accuracy                           0.99        85
+   macro avg       0.98      0.99      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for RF_GAN_CC
+[[64  1]
+ [ 3 17]]
+Classification Report for RF_GAN_CC
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97        65
+           1       0.94      0.85      0.89        20
+
+    accuracy                           0.95        85
+   macro avg       0.95      0.92      0.93        85
+weighted avg       0.95      0.95      0.95        85
+
+Confusion Matrix for RF_borderline_CC
+[[62  3]
+ [ 0 20]]
+Classification Report for RF_borderline_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98        65
+           1       0.87      1.00      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.93      0.98      0.95        85
+weighted avg       0.97      0.96      0.97        85
+
+Confusion Matrix for XGB_mix_NM
+[[63  2]
+ [ 0 20]]
+Classification Report for XGB_mix_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98        65
+           1       0.91      1.00      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.95      0.98      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for XGB_smote_NM
+[[64  1]
+ [ 0 20]]
+Classification Report for XGB_smote_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        65
+           1       0.95      1.00      0.98        20
+
+    accuracy                           0.99        85
+   macro avg       0.98      0.99      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGB_GAN_NM
+[[63  2]
+ [ 0 20]]
+Classification Report for XGB_GAN_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98        65
+           1       0.91      1.00      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.95      0.98      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for XGB_borderline_NM
+[[64  1]
+ [ 0 20]]
+Classification Report for XGB_borderline_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        65
+           1       0.95      1.00      0.98        20
+
+    accuracy                           0.99        85
+   macro avg       0.98      0.99      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGB_mix_KM
+[[ 1 64]
+ [20  0]]
+Classification Report for XGB_mix_KM
+              precision    recall  f1-score   support
+
+           0       0.05      0.02      0.02        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.01        85
+   macro avg       0.02      0.01      0.01        85
+weighted avg       0.04      0.01      0.02        85
+
+Confusion Matrix for XGB_smote_KM
+[[ 0 65]
+ [20  0]]
+Classification Report for XGB_smote_KM
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      65.0
+           1       0.00      0.00      0.00      20.0
+
+    accuracy                           0.00      85.0
+   macro avg       0.00      0.00      0.00      85.0
+weighted avg       0.00      0.00      0.00      85.0
+
+Confusion Matrix for XGB_GAN_KM
+[[ 1 64]
+ [14  6]]
+Classification Report for XGB_GAN_KM
+              precision    recall  f1-score   support
+
+           0       0.07      0.02      0.03        65
+           1       0.09      0.30      0.13        20
+
+    accuracy                           0.08        85
+   macro avg       0.08      0.16      0.08        85
+weighted avg       0.07      0.08      0.05        85
+
+Confusion Matrix for XGB_borderline_KM
+[[ 1 64]
+ [20  0]]
+Classification Report for XGB_borderline_KM
+              precision    recall  f1-score   support
+
+           0       0.05      0.02      0.02        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.01        85
+   macro avg       0.02      0.01      0.01        85
+weighted avg       0.04      0.01      0.02        85
+
+Confusion Matrix for XGB_mix_CC
+[[64  1]
+ [ 3 17]]
+Classification Report for XGB_mix_CC
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97        65
+           1       0.94      0.85      0.89        20
+
+    accuracy                           0.95        85
+   macro avg       0.95      0.92      0.93        85
+weighted avg       0.95      0.95      0.95        85
+
+Confusion Matrix for XGB_smote_CC
+[[64  1]
+ [ 0 20]]
+Classification Report for XGB_smote_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        65
+           1       0.95      1.00      0.98        20
+
+    accuracy                           0.99        85
+   macro avg       0.98      0.99      0.98        85
+weighted avg       0.99      0.99      0.99        85
+
+Confusion Matrix for XGB_GAN_CC
+[[64  1]
+ [ 3 17]]
+Classification Report for XGB_GAN_CC
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97        65
+           1       0.94      0.85      0.89        20
+
+    accuracy                           0.95        85
+   macro avg       0.95      0.92      0.93        85
+weighted avg       0.95      0.95      0.95        85
+
+Confusion Matrix for XGB_borderline_CC
+[[63  2]
+ [ 0 20]]
+Classification Report for XGB_borderline_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98        65
+           1       0.91      1.00      0.95        20
+
+    accuracy                           0.98        85
+   macro avg       0.95      0.98      0.97        85
+weighted avg       0.98      0.98      0.98        85
+
+Confusion Matrix for XGBRF_mix_NM
+[[62  3]
+ [ 0 20]]
+Classification Report for XGBRF_mix_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98        65
+           1       0.87      1.00      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.93      0.98      0.95        85
+weighted avg       0.97      0.96      0.97        85
+
+Confusion Matrix for XGBRF_smote_NM
+[[62  3]
+ [ 0 20]]
+Classification Report for XGBRF_smote_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98        65
+           1       0.87      1.00      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.93      0.98      0.95        85
+weighted avg       0.97      0.96      0.97        85
+
+Confusion Matrix for XGBRF_GAN_NM
+[[61  4]
+ [ 0 20]]
+Classification Report for XGBRF_GAN_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97        65
+           1       0.83      1.00      0.91        20
+
+    accuracy                           0.95        85
+   macro avg       0.92      0.97      0.94        85
+weighted avg       0.96      0.95      0.95        85
+
+Confusion Matrix for XGBRF_borderline_NM
+[[62  3]
+ [ 0 20]]
+Classification Report for XGBRF_borderline_NM
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98        65
+           1       0.87      1.00      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.93      0.98      0.95        85
+weighted avg       0.97      0.96      0.97        85
+
+Confusion Matrix for XGBRF_mix_KM
+[[ 5 60]
+ [20  0]]
+Classification Report for XGBRF_mix_KM
+              precision    recall  f1-score   support
+
+           0       0.20      0.08      0.11        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.06        85
+   macro avg       0.10      0.04      0.06        85
+weighted avg       0.15      0.06      0.08        85
+
+Confusion Matrix for XGBRF_smote_KM
+[[ 5 60]
+ [20  0]]
+Classification Report for XGBRF_smote_KM
+              precision    recall  f1-score   support
+
+           0       0.20      0.08      0.11        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.06        85
+   macro avg       0.10      0.04      0.06        85
+weighted avg       0.15      0.06      0.08        85
+
+Confusion Matrix for XGBRF_GAN_KM
+[[ 2 63]
+ [16  4]]
+Classification Report for XGBRF_GAN_KM
+              precision    recall  f1-score   support
+
+           0       0.11      0.03      0.05        65
+           1       0.06      0.20      0.09        20
+
+    accuracy                           0.07        85
+   macro avg       0.09      0.12      0.07        85
+weighted avg       0.10      0.07      0.06        85
+
+Confusion Matrix for XGBRF_borderline_KM
+[[ 5 60]
+ [20  0]]
+Classification Report for XGBRF_borderline_KM
+              precision    recall  f1-score   support
+
+           0       0.20      0.08      0.11        65
+           1       0.00      0.00      0.00        20
+
+    accuracy                           0.06        85
+   macro avg       0.10      0.04      0.06        85
+weighted avg       0.15      0.06      0.08        85
+
+Confusion Matrix for XGBRF_mix_CC
+[[59  6]
+ [ 0 20]]
+Classification Report for XGBRF_mix_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.91      0.95        65
+           1       0.77      1.00      0.87        20
+
+    accuracy                           0.93        85
+   macro avg       0.88      0.95      0.91        85
+weighted avg       0.95      0.93      0.93        85
+
+Confusion Matrix for XGBRF_smote_CC
+[[62  3]
+ [ 0 20]]
+Classification Report for XGBRF_smote_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98        65
+           1       0.87      1.00      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.93      0.98      0.95        85
+weighted avg       0.97      0.96      0.97        85
+
+Confusion Matrix for XGBRF_GAN_CC
+[[63  2]
+ [ 1 19]]
+Classification Report for XGBRF_GAN_CC
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98        65
+           1       0.90      0.95      0.93        20
+
+    accuracy                           0.96        85
+   macro avg       0.94      0.96      0.95        85
+weighted avg       0.97      0.96      0.96        85
+
+Confusion Matrix for XGBRF_borderline_CC
+[[60  5]
+ [ 0 20]]
+Classification Report for XGBRF_borderline_CC
+              precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        65
+           1       0.80      1.00      0.89        20
+
+    accuracy                           0.94        85
+   macro avg       0.90      0.96      0.92        85
+weighted avg       0.95      0.94      0.94        85
+
