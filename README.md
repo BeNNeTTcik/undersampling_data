@@ -27,16 +27,20 @@ Typically, you want to exclude this folder if it contains either sensitive data 
 │   ├── processed      <- The final, canonical data sets for modeling
 |   ├── raw            <- The original, immutable data dump
 │   └── ssh            <- SSH Dataset + undersampled data
+|       ├── reduced         <- Saved reduced data 
+|       └── test            <- Test data
 │
 ├── models             <- Trained models saved in joblib
 │
 ├── notebooks          <- Jupyter notebooks. All scripts are in this folder
-|   └── ssh                     <- Notebook consist of: data preprocessing, learning models and results analysis for SSH dataset        
+|   ├── ssh_undersampling       <- Notebook consist of: data preprocessing, learning models and results analysis for SSH dataset        
+|   └── distribiution           <- Notebook to calculate distribiution 
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials
 │
 ├── reports            <- Generated analysis as TXT, PNG, XLS, etc.
 |   ├── ssh                     <- Results for SSH dataset
+|   │   ├── distribiution       <- Save file from Notebook "distribiution"
 |   │   ├── grid_search         <- Saved results of GridSearch 
 |   │   └── results             <- Learned models metrix
 |   │       └── figures         <- Figures of confusion matrix 
