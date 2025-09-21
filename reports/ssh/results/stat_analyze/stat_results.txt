@@ -1,0 +1,23 @@
+Statistical analysis results (ANOVA & Friedman)
+================================================================================
+
+Metric: accuracy
+----------------------------------------
+ANOVA results -> Statistic: 5.5151, p-value: 2.2672e-25
+Friedman results -> Statistic: 227.5342, p-value: 1.8249e-28
+
+Metric: precision
+----------------------------------------
+ANOVA results -> Statistic: 4.7269, p-value: 3.5057e-20
+Friedman results -> Statistic: 223.7668, p-value: 8.8421e-28
+
+Metric: f1
+----------------------------------------
+ANOVA results -> Statistic: 21.6194, p-value: 4.3532e-136
+Friedman results -> Statistic: 245.5141, p-value: 9.1625e-32
+
+Metric: recall
+----------------------------------------
+ANOVA results -> Statistic: 21.7928, p-value: 3.0311e-137
+Friedman results -> Statistic: 318.9427, p-value: 1.2659e-45
+
