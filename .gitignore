@@ -100,3 +100,9 @@ data/unsw/UNSW-NB15_3.csv
 data/unsw/UNSW-NB15_4.csv
 data/unsw/UNSW-NB15_processed2.csv
 data/unsw/UNSW-NB15_processed.csv
+data/unsw/UNSW-NB15_processed3.csv
+data/unsw/UNSW-NB15_processed_final.csv
+data/unsw/X_train.csv
+data/unsw/X_test.csv
+data/unsw/y_train.csv
+data/unsw/y_test.csv
