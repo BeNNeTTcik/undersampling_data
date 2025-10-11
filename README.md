@@ -26,10 +26,11 @@ Typically, you want to exclude this folder if it contains either sensitive data 
 │   ├── interim        <- Intermediate data that has been transformed
 │   ├── processed      <- The final, canonical data sets for modeling
 |   ├── raw            <- The original, immutable data dump
-│   └── ssh            <- SSH Dataset + undersampled data
-|       ├── reduced         <- Saved reduced data 
-|       └── test            <- Test data
-│
+│   ├── ssh            <- SSH Dataset + undersampled data
+|   │   ├── reduced         <- Saved reduced data 
+|   │   └── test            <- Test data
+│   └── unsw           <- UNSW Dataset consist from UNSW-NB15_1 to UNSW-NB15_4
+|
 ├── models             <- Trained models saved in joblib
 │
 ├── notebooks          <- Jupyter notebooks. All scripts are in this folder

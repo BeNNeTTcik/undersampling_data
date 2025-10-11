@@ -94,3 +94,7 @@ target/
 
 # exclude data from source control by default
 # /data/
+data/unsw/UNSW-NB15_1.csv
+data/unsw/UNSW-NB15_2.csv
+data/unsw/UNSW-NB15_3.csv
+data/unsw/UNSW-NB15_4.csv
