@@ -106,3 +106,8 @@ data/unsw/X_train.csv
 data/unsw/X_test.csv
 data/unsw/y_train.csv
 data/unsw/y_test.csv
+data/unsw/UNSW-NB15_final.csv
+data/unsw/oversampling/smote_data.csv
+data/unsw/oversampling/smote3_data.csv
+data/unsw/oversampling/borderline_data.csv
+data/unsw/oversampling/borderline3_data.csv
