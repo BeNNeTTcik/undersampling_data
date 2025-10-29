@@ -1,88 +1,275 @@
-Data: mix_NM_data
+Data: mix_HDBSCAN_cos
 Distribiution:
 source
-original            54.635762
-borderline smote    26.158940
-smote               16.887417
-gan                  2.317881
-Name: mix_NM_data, dtype: float64
+original            65.231788
+smote               14.900662
+borderline smote    13.907285
+gan                  5.960265
+Name: mix_HDBSCAN_cos, dtype: float64
 
-Data: mix_KM_data
+Data: mix_HDBSCAN_nn
 Distribiution:
 source
-centroid    100.0
-Name: mix_KM_data, dtype: float64
+original            65.231788
+borderline smote    14.569536
+smote               14.238411
+gan                  5.960265
+Name: mix_HDBSCAN_nn, dtype: float64
 
-Data: mix_CC_data
+Data: mix_KM_centroids
 Distribiution:
 source
-original            50.662252
-gan                 25.165563
-centroid            19.205298
-borderline smote     2.980132
-smote                1.986755
-Name: mix_CC_data, dtype: float64
+original    65.231788
+centroid    34.768212
+Name: mix_KM_centroids, dtype: float64
 
-Data: borderline_NM_data
+Data: mix_KM_cos_mal
 Distribiution:
 source
-original            52.317881
-borderline smote    47.682119
-Name: borderline_NM_data, dtype: float64
+original            65.231788
+gan                 17.880795
+borderline smote     8.940397
+smote                7.947020
+Name: mix_KM_cos_mal, dtype: float64
 
-Data: borderline_KM_data
+Data: mix_KM_cos
 Distribiution:
 source
-centroid    100.0
-Name: borderline_KM_data, dtype: float64
+original            65.231788
+gan                 18.543046
+borderline smote     9.271523
+smote                6.953642
+Name: mix_KM_cos, dtype: float64
 
-Data: borderline_CC_data
+Data: mix_KM_nn
 Distribiution:
 source
-original            57.947020
-centroid            24.834437
-borderline smote    17.218543
-Name: borderline_CC_data, dtype: float64
+original            65.231788
+gan                 18.874172
+borderline smote     8.609272
+smote                7.284768
+Name: mix_KM_nn, dtype: float64
 
-Data: smote_NM_data
+Data: mix_KM_HDBSCAN_cos
 Distribiution:
 source
-original    54.635762
-smote       45.364238
-Name: smote_NM_data, dtype: float64
+original            65.231788
+gan                 18.211921
+smote                8.278146
+borderline smote     8.278146
+Name: mix_KM_HDBSCAN_cos, dtype: float64
 
-Data: smote_KM_data
+Data: mix_KM_HDBSCAN_cos_mal
 Distribiution:
 source
-centroid    100.0
-Name: smote_KM_data, dtype: float64
+original            65.231788
+gan                 20.198675
+smote                8.940397
+borderline smote     5.629139
+Name: mix_KM_HDBSCAN_cos_mal, dtype: float64
 
-Data: smote_CC_data
+Data: mix_KM_HDBSCAN_nn
 Distribiution:
 source
-original    51.986755
-centroid    35.099338
-smote       12.913907
-Name: smote_CC_data, dtype: float64
+original            65.231788
+gan                 18.211921
+borderline smote     9.602649
+smote                6.953642
+Name: mix_KM_HDBSCAN_nn, dtype: float64
 
-Data: GAN_NM_data
+Data: borderline_HDBSCAN_cos
 Distribiution:
 source
-original    58.940397
-gan         41.059603
-Name: GAN_NM_data, dtype: float64
+original            65.231788
+borderline smote    34.768212
+Name: borderline_HDBSCAN_cos, dtype: float64
 
-Data: GAN_KM_data
+Data: borderline_HDBSCAN_nn
 Distribiution:
 source
-centroid    100.0
-Name: GAN_KM_data, dtype: float64
+original            65.016502
+borderline smote    34.653465
+smote                0.330033
+Name: borderline_HDBSCAN_nn, dtype: float64
 
-Data: GAN_CC_data
+Data: borderline_KM_centroids
 Distribiution:
 source
-original    50.662252
-centroid    37.748344
-gan         11.589404
-Name: GAN_CC_data, dtype: float64
+original    65.231788
+centroid    34.768212
+Name: borderline_KM_centroids, dtype: float64
+
+Data: borderline_KM_cos_mal
+Distribiution:
+source
+original            65.016502
+borderline smote    34.653465
+smote                0.330033
+Name: borderline_KM_cos_mal, dtype: float64
+
+Data: borderline_KM_cos
+Distribiution:
+source
+original            65.231788
+borderline smote    34.768212
+Name: borderline_KM_cos, dtype: float64
+
+Data: borderline_KM_nn
+Distribiution:
+source
+original            65.016502
+borderline smote    34.653465
+smote                0.330033
+Name: borderline_KM_nn, dtype: float64
+
+Data: borderline_KM_HDBSCAN_cos
+Distribiution:
+source
+original            65.231788
+borderline smote    34.768212
+Name: borderline_KM_HDBSCAN_cos, dtype: float64
+
+Data: borderline_KM_HDBSCAN_cos_mal
+Distribiution:
+source
+original            65.231788
+borderline smote    34.768212
+Name: borderline_KM_HDBSCAN_cos_mal, dtype: float64
+
+Data: borderline_KM_HDBSCAN_nn
+Distribiution:
+source
+original            65.231788
+borderline smote    34.768212
+Name: borderline_KM_HDBSCAN_nn, dtype: float64
+
+Data: smote_HDBSCAN_cos
+Distribiution:
+source
+original            65.016502
+smote               34.653465
+borderline smote     0.330033
+Name: smote_HDBSCAN_cos, dtype: float64
+
+Data: smote_HDBSCAN_nn
+Distribiution:
+source
+original            65.016502
+smote               34.653465
+borderline smote     0.330033
+Name: smote_HDBSCAN_nn, dtype: float64
+
+Data: smote_KM_centroids
+Distribiution:
+source
+original    65.231788
+centroid    34.768212
+Name: smote_KM_centroids, dtype: float64
+
+Data: smote_KM_cos_mal
+Distribiution:
+source
+original    65.231788
+smote       34.768212
+Name: smote_KM_cos_mal, dtype: float64
+
+Data: smote_KM_cos
+Distribiution:
+source
+original    65.231788
+smote       34.768212
+Name: smote_KM_cos, dtype: float64
+
+Data: smote_KM_nn
+Distribiution:
+source
+original    65.231788
+smote       34.768212
+Name: smote_KM_nn, dtype: float64
+
+Data: smote_KM_HDBSCAN_cos
+Distribiution:
+source
+original            65.016502
+smote               34.653465
+borderline smote     0.330033
+Name: smote_KM_HDBSCAN_cos, dtype: float64
+
+Data: smote_KM_HDBSCAN_cos_mal
+Distribiution:
+source
+original    65.231788
+smote       34.768212
+Name: smote_KM_HDBSCAN_cos_mal, dtype: float64
+
+Data: smote_KM_HDBSCAN_nn
+Distribiution:
+source
+original            65.016502
+smote               34.653465
+borderline smote     0.330033
+Name: smote_KM_HDBSCAN_nn, dtype: float64
+
+Data: GAN_HDBSCAN_cos
+Distribiution:
+source
+original    65.231788
+gan         34.768212
+Name: GAN_HDBSCAN_cos, dtype: float64
+
+Data: GAN_HDBSCAN_nn
+Distribiution:
+source
+original    65.231788
+gan         34.768212
+Name: GAN_HDBSCAN_nn, dtype: float64
+
+Data: GAN_KM_centroids
+Distribiution:
+source
+original    65.231788
+centroid    34.768212
+Name: GAN_KM_centroids, dtype: float64
+
+Data: GAN_KM_cos_mal
+Distribiution:
+source
+original    65.231788
+gan         34.768212
+Name: GAN_KM_cos_mal, dtype: float64
+
+Data: GAN_KM_cos
+Distribiution:
+source
+original    65.231788
+gan         34.768212
+Name: GAN_KM_cos, dtype: float64
+
+Data: GAN_KM_nn
+Distribiution:
+source
+original    65.231788
+gan         34.768212
+Name: GAN_KM_nn, dtype: float64
+
+Data: GAN_KM_HDBSCAN_cos
+Distribiution:
+source
+original    65.231788
+gan         34.768212
+Name: GAN_KM_HDBSCAN_cos, dtype: float64
+
+Data: GAN_KM_HDBSCAN_cos_mal
+Distribiution:
+source
+original    65.231788
+gan         34.768212
+Name: GAN_KM_HDBSCAN_cos_mal, dtype: float64
+
+Data: GAN_KM_HDBSCAN_nn
+Distribiution:
+source
+original    65.231788
+gan         34.768212
+Name: GAN_KM_HDBSCAN_nn, dtype: float64
 
